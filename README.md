@@ -4,10 +4,6 @@
 The Random Quote Generator is a basic web app based on public  API called **Random Quote Generator**, which aims to show the users some random quotes. The background of the application that the user  uses has images that are changed in intervals providing the user with a pleasing or chill feeling feeling. It is an interesting web application, which demonstrates my understanding on HTML, CSS, JavaScript and organizational form.
 
 
-
-## Visuals
-![Screenshot of Random Quote Generator](images/img\ \(1\).jpg)
-
 ## Features
 - Fetches and displays random quotes from the Random Quote Generator public API.
 - Allows users to fetch a new quote by clicking a button.(get New Quote)
