@@ -1,0 +1,179 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url('images/img\ \(1\).jpg'); /* Setting  an initial background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: change 700s infinite ease-in-out; /*animating background image changes*/
+
+}
+
+
+ /*styling quote container*/
+#quote-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 251, 251, 0.955);
+}
+/*styling new quote button*/
+#newQuoteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    margin-top: 20px;
+}
+
+#newQuoteButton:hover {
+    background-color: #0056b3;
+}
+/* changing background images frame */
+@keyframes change{
+    0%
+    {
+        background-image:url('images/img\ \(1\).jpg');
+    }
+    2.5%
+    {
+        background-image: url('images/img\ \(2\).jpg');
+    }
+    5%
+    {
+        background-image:url('images/img\ \(3\).jpg');    }
+    7.5%
+    {
+        background-image: url('images/img\ \(4\).jpg');
+    }
+    10%
+    {
+        background-image: url('images/img\ \(5\).jpg');
+    }
+    12.5%
+    {
+        background-image:url('images/img\ \(6\).jpg');    }
+    15%
+    {
+        background-image:url('images/img\ \(7\).jpg');    }
+    17.5%
+    {
+        background-image:url('images/img\ \(8\).jpg');    }
+    20%
+    {
+        background-image:url('images/img\ \(9\).jpg');    }
+    22.5%
+    {
+        background-image:url('images/img\ \(10\).jpg');    }
+    25%
+    {
+        background-image:url('images/img\ \(12\).jpg');    }
+    27.5%
+    {
+        background-image:url('images/img\ \(13\).jpg');    }
+    30%
+    {
+        background-image:url('images/img\ \(14\).jpg');    }
+    32.5%
+    {
+        background-image:url('images/img\ \(15\).jpg');    }
+    35%
+    {
+        background-image:url('images/img\ \(16\).jpg');    }
+    37.5%
+    {
+        background-image:url('images/img\ \(17\).jpg');    }
+    40%
+    {
+        background-image:url('images/img\ \(18\).jpg');    }
+    42.5%
+    {
+        background-image:url('images/img\ \(19\).jpg');    }
+    45%
+    {
+        background-image:url('images/img\ \(20\).jpg');    }
+    47.5%
+    {
+        background-image:url('images/img\ \(21\).jpg');    }
+    50%
+    {
+        background-image:url('images/img\ \(22\).jpg');    }
+    52.5%
+    {
+        background-image:url('images/img\ \(23\).jpg');    }
+    55%
+    {
+        background-image:url('images/img\ \(24\).jpg');    }
+    57.5%
+    {
+        background-image:url('images/img\ \(25\).jpg');    }
+    60%
+    {
+        background-image:url('images/img\ \(26\).jpg');    }
+    62.5%
+    {
+        background-image:url('images/img\ \(27\).jpg');    }
+    65%
+    {
+        background-image:url('images/img\ \(28\).jpg');    }
+    67.5%
+    {
+        background-image:url('images/img\ \(29\).jpg');    }
+    70%
+    {
+        background-image:url('images/img\ \(30\).jpg');    }
+    72.5%
+    {
+        background-image:url('images/img\ \(31\).jpg');    }
+    75%
+    {
+        background-image:url('images/img\ \(32\).jpg');    }
+    77.5%
+    {
+        background-image:url('images/img\ \(33\).jpg');    }
+    80%
+    {
+        background-image:url('images/img\ \(34\).jpg');    }
+    82.5%
+    {
+        background-image:url('images/img\ \(35\).jpg');    }
+    85%
+    {
+        background-image:url('images/img\ \(36\).jpg');    }
+    87.5%
+    {
+        background-image:url('images/img\ \(37\).jpg');    }
+    90%
+    {
+        background-image:url('images/img\ \(38\).jpg');    }
+    92.5%
+    {
+        background-image:url('images/img\ \(39\).jpg');    }
+    95%
+    {
+        background-image:url('images/img\ \(40\).jpg');    }
+    97.5%
+    {
+        background-image:url('images/img\ \(41\).jpg');    }
+    100%
+    {
+        background-image:url('images/img\ \(42\).jpg');    }
+   
+   
+}
